@@ -1,0 +1,79 @@
+{
+    "items": [
+        {
+            "title": "이타서울</br>다 같이 줍자! 서울 한 바퀴" ,
+            "type": "private",
+            "text": "<p>나의 작은 걸음아! 나의 건강도, 우리 강산도 살려라</p>" ,
+            "tag1": "자원봉사" ,
+            "tag2": "플로깅", 
+            "tag3": "쓰레기" ,
+            "tag4": "민간",
+            "date": "4.22~6.5",
+            "remain":  1,
+            "image": "../img/volunteer/img_1.png",
+            "recommend":false,
+            "area":true,
+            "favor": 0
+        },
+        {
+            "title": "부천시 자원봉사센터</br>비대면 환경사랑 실천 봉사활동" ,
+            "type": "public",
+            "text": "<p>일상 속 나의 작은 습관이 더 큰 내일의 지구를 만듭니다. 모두 같이 지구를 살려요 !</p>" ,
+            "tag1": "자원봉사" ,
+            "tag2": "sns", 
+            "tag3": "부천시" ,
+            "tag4": "공공",
+            "date": "4.29~6.26",
+            "remain":  "none",
+            "image": "../img/volunteer/img_2.png",
+            "recommend":false,
+            "area":true,
+            "favor": 0
+        },
+        {
+            "title": "인천광역시</br>우리가족플로깅" ,
+            "type": "public",
+            "text": "<p>운동과 자원봉사를 동시에 ! 온 가족이 참여하여 좋은 추억을 쌓고, 지구를 살리기도 하는 일석이조 봉사!</p>",
+            "tag1": "자원봉사" ,
+            "tag2": "플로깅", 
+            "tag3": "가족운동" ,
+            "tag4": "공공",
+            "date": "5.6~6.28",
+            "remain": "none",
+            "image": "../img/volunteer/img_3.png",
+            "recommend":false,
+            "area":false,
+            "favor": 0
+        },
+        {
+            "title": "고양시 </br> 장항습지 자원봉사 단체 모집",
+            "type": "public",
+            "text": "<p>쓰레기 무(無), 플라스틱 무(無), 온실가스 무(無)  무(無)야호 ! 우리의 장항습지를 보전하는 단체를 찾습니다 ! </p>",
+            "tag1": "자원봉사" ,
+            "tag2": "장항습지", 
+            "tag3": "플라스틱" ,
+            "tag4": "공공",
+            "date": "월~금",
+            "remain": "none",
+            "image": "../img/volunteer/img_4.png",
+            "recommend":false,
+            "area":false,
+            "favor": 0
+        },
+        {
+            "title": "오산시 </br> 환경정화 봉사자 모집",
+            "type": "public",
+            "text": "<p>함께해서 즐거운 봉사활동 ! 그룹별 환경정화 봉사자를 모집합니다 ! </p>",
+            "tag1": "오산" ,
+            "tag2": "환경정화", 
+            "tag3": "봉사자" ,
+            "tag4": "공공",
+            "date": "6.1~6.30",
+            "remain": "none",
+            "image": "../img/volunteer/img_5.png",
+            "recommend":false,
+            "area":false,
+            "favor": 0
+        }
+    ]
+}

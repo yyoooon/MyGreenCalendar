@@ -1,0 +1,458 @@
+@import url('./reset.css');
+
+.margin_wrap {
+    width: 1236px;
+    margin: 0 auto;
+}
+
+a,
+apsn {
+    display: block;
+}
+
+/* -----------------search / filter 요소---------------------- */
+.search_bar {
+    border: 1px solid rgba(166, 173, 180, 0.3);
+    border-radius: 26px;
+    padding: 10px 33px;
+    margin-right: 24px;
+    background-color: #fff;
+}
+
+.search_bar input {
+    width: 294px;
+    height: 24px;
+    background-color: #fff;
+}
+
+.search_bar input::placeholder {
+    font-size: 16px;
+    color: #9D9D9D;
+}
+
+.search_bar > i {
+    font-size: 18px;
+    color: #797979;
+}
+
+.filter_element {
+    width: 110px;
+    height: 43px;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 26px;
+    color: #797979;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+
+.filter_element.current {
+    color: #76B42D;
+    font-weight: 500;
+}
+
+/* ------------header------------- */
+.header_wrap {
+    /* border-bottom: 0.3px solid rgba(125, 125, 125, 0.2); */
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.08);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo {
+    width: 66px;
+    height: 56px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav {
+    position: relative;
+    left: 240px;
+    width: 320px;
+    font-weight: 500;
+}
+
+nav h2 {
+    font-size: 18px;
+}
+
+nav h2:hover {
+    color: #76B42D;
+}
+
+nav h2:active {
+    color: #76B42D;
+}
+
+nav .menus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.privacy {
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+}
+
+.calendar_btn {
+    padding: 9px 32px;
+    border-radius: 22px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #76B42D;
+}
+
+.calendar_btn i {
+    margin-right: 8px;
+}
+
+.profile {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 41px;
+    height: 41px;
+    border-radius: 100px;
+    background-color: rgba(118, 180, 45, 0.25);
+}
+
+.profile i {
+    font-size: 24px;
+    color: #fff;
+}
+
+.profile:hover .profile_drop_down {
+    display: block;
+}
+
+.profile_drop_down {
+    position: absolute;
+    display: none;
+    top: 41px;
+    width: 178px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.16);
+    border-radius: 6px;
+    text-align: center;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+.profile_drop_down_item {
+    padding: 12px 54px;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(125, 125, 125, 0.2);
+}
+
+.profile_drop_down_item.user_name {
+    font-size: 18px;
+    padding: 18px 54px;
+    font-weight: 500;
+}
+
+.profile_drop_down_item:hover {
+    color: #76B42D;
+}
+
+.profile_drop_down_item:active {
+    color: #76B42D;
+}
+
+/* ----------------main-------------------- */
+main {
+    background-color: #FDFFFA;
+}
+
+/* -------------------content_ 공통--------------------- */
+.section_content {
+    padding: 109px 0;
+    height: auto;
+}
+
+article {
+    position: relative;
+    margin-bottom: 89px;
+}
+
+.article_title {
+    margin-bottom: 27px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.view_more_btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 18px;
+    color: #757A80;
+}
+
+.contents {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 6px;
+}
+
+.content {
+    position: relative;
+    width: 282px;
+    margin: 24px 13.5px;
+    border-radius: 6px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.16);
+}
+
+.content.invisible {
+    display: none;
+}
+
+
+
+.content_img {
+    width: 282px;
+    height: 268px;
+    border-radius: 6px 6px 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content_img_cover {
+    display: none;
+    height: 100%;
+    padding: 75px 34px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20.5px;
+    border-radius: 6px 6px 0 0;
+    background-color: rgba(0, 0, 0, 0.71);
+}
+
+.content_img_cover p {
+    margin-bottom: 18px;
+}
+
+.content_img:hover .content_img_cover {
+    display: block;
+}
+
+.info_box{
+    padding: 28px;
+    background-color: #fff;
+}
+
+.info_box header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+}
+
+.info_box header .content_title {
+    margin-bottom: 15px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.info_box header button {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.info_box header i {
+    display: block;
+}
+
+.info_box .favor_degree_num {
+    display: block;
+    font-size: 16px;
+}
+
+.tags {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.tag {
+    display: block;
+    padding: 3px 9px;
+    margin-left: 5px;
+    border-radius: 6px;
+    color: #fff;
+    text-align: center;
+    background-color: #030301;
+}
+
+.tag:first-child {
+    margin-left: 0px;
+}
+
+.content footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 28px;
+    border-top: 1px solid rgba(125, 125, 125, 0.2);
+    border-radius: 0 0 6px 6px;
+    background-color: #fff;
+}
+
+.content footer  span {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(125, 125, 125, 0.7);
+}
+
+.content footer .cal_save_btn {
+    border: 1px solid #76B42D;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #76B42D;
+    background-color: #fff;
+}
+
+.content footer .cal_cancle_btn {
+    border: 1px solid #C92517;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #C92517;
+    background-color: #fff;
+}
+
+.remain_period {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-radius: 6px;
+    padding: 3px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #76B42D;
+}
+
+.remain_period.invisible {
+    display: none;
+}
+
+.remain_period.Imminent {
+    background-color: #C92517;
+}
+
+/* -------------------footer--------------------- */
+.footer {
+    height: 200px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+/* ------------------favor popup -----------------*/
+
+.favor_btn_popup {
+    display: none;
+    position: fixed;
+    width: 442px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px 60px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+
+.favor_btn_popup.visible {
+    display: block;
+}
+
+.favor_btn_popup h5 {
+    margin-bottom: 26px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.favor_degree_btns {
+    margin-bottom: 40px;
+}
+
+.favor_degree_btn {
+    margin-right: 12px;
+}
+
+.favor_degree_btn i {
+    font-size: 32px;
+}
+
+.confirm_btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirm_btns button:first-child {
+    margin-right: 18px;
+}
+
+.confirm_btns .filter_element {
+    color:#76B42D;
+    font-weight: 500;
+    border: 1px solid #76B42D;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.confirm_btns .filter_element:active {
+    background-color: #76B42D;
+    color: #fff;
+}
+
+/* ------------------calendar popup -----------------*/
+
+.canlendar_btn_popup {
+    display: none;
+    position: fixed;
+    width: 442px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px 60px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+
+.canlendar_btn_popup.visible {
+    display: block;
+}
+
+.canlendar_btn_popup h5 {
+    margin-bottom: 26px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+

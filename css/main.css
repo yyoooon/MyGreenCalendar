@@ -1,0 +1,123 @@
+@import url('./style.css');
+
+/* ----------------banner------------------ */
+.banner {
+    height: 480px;
+    background-image: url('../img/main/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* 이미지 출처 - http://magazine.bizforms.co.kr/content/event/view_20200525.asp?p_bms_code=bs3217326621106 */
+
+/* -----------------search_bar------------------ */
+.section_main_search {
+    height: 108px;
+    color: #fff;
+    background-color: #76B42D;
+}
+
+.main_search_wrap {
+    display: flex;
+    padding: 0;
+    height: 108px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_search {
+    display: flex;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 0.1px solid rgba(255,255,255,0.4);
+}
+
+.main_search i {
+    font-size: 26px;
+}
+
+.main_search input {
+    padding: 0 36px;
+    width: 1050px;
+    height: 35px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.main_search input::placeholder {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.main_search_btn {
+    width: 160px;
+    height: 47px;
+    border-radius: 26px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #76B42D;
+    background-color: #fff;
+}
+
+.main_search_btn:hover {
+    background-color: #DCE0E3;
+}
+
+.main_search_btn:active {
+    background-color: #DCE0E3;
+}
+
+.content {
+    margin-bottom: 0;
+}
+
+/* -------------------recommaend_content--------------------- */
+
+/* content-1 */
+.recommend_items .content:nth-child(1) .content_img {
+    background-image: url('../img/campaign/img_8.png');
+}
+.recommend_items .content:nth-child(1) .remain_period {
+    background-color: #C92517;
+}
+
+/* content-2 */
+.recommend_items .content:nth-child(2) .content_img {
+    background-image: url('../img/campaign/img_1.png');
+}
+
+/* content-3 */
+.recommend_items .content:nth-child(3) .content_img {
+    background-image: url('../img/campaign/img_3.png');
+}
+
+/* content-4 */
+.recommend_items .content:nth-child(4) .content_img {
+    background-image: url('../img/campaign/img_7.png');
+}
+
+/* ------------------------area_items----------------------------- */
+
+/* content-1 */
+.area_items .content:nth-child(1) .content_img {
+    background-image: url('../img/campaign/img_2.png');
+}
+
+/* content-2 */
+.area_items .content:nth-child(2) .content_img {
+    background-image: url('../img/campaign/img_6.png');
+}
+
+/* content-3 */
+.area_items .content:nth-child(3) .content_img {
+    background-image: url('../img/campaign/img_7.png');
+}
+
+/* content-4 */
+.area_items .content:nth-child(4) .content_img {
+    background-image: url('../img/campaign/img_4.png');
+}

@@ -1,0 +1,124 @@
+@import url('../css/reset.css');
+
+body {
+    background-color: #FDFFFA;
+}
+
+body > header {
+   width: 1024px;
+   padding: 63px 0;
+   margin: 0 auto;
+}
+
+body > header h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.select_keyword {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+}
+
+
+/* section */
+.select_keyword {
+    margin-bottom: 74px;
+}
+.select_keyword article:first-child {
+    margin-bottom: 32px;
+}
+
+.select_keyword header {
+    margin-bottom: 38px;
+}
+
+.select_keyword header h2 {
+    font-size: 20px;
+    color: #030301;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.select_keyword header span {
+    font-size: 16px;
+    color: #707070;
+    font-weight: 400;
+}
+
+/* tags*/
+.select_keyword ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.select_keyword li {
+    display: inline-block;
+    margin: 0 18px 34px 0;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    transition: background-color 180ms ease-out;
+}
+
+.select_keyword li button {
+    display: block;
+    padding: 13px 43px;
+    font-size: 16px;
+    color: #030301;
+    transition: color 180ms ease-out;
+}
+
+.select_keyword li:hover,
+.select_keyword li:active {
+    background-color: #76B42D;
+}
+
+.select_keyword li button:hover {
+    color: #fff;
+    font-weight: 500;
+}
+
+.tag.selected {
+    background-color: #76B42D;
+}
+
+.tag button.selected {
+    color: #fff;
+    font-weight: 500;
+}
+
+
+
+/* footer */
+
+footer {
+    margin-bottom: 134px;
+}
+
+.confirm_btn {
+    display: block;
+    border-radius: 43px;
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #76B42D;
+}
+
+.confirm_btn:active {
+    background-color: #76B42D;
+    opacity: 0.5;
+}
+
+.confirm_btn a {
+    display: block;
+    padding: 12px 62px;
+}

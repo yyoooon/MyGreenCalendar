@@ -1,0 +1,185 @@
+@import url('../css/reset.css');
+
+body {
+    background-color: #FDFFFA;
+}
+
+body > header {
+    width: 601px;
+   padding: 63px 0;
+   margin: 0 auto;
+}
+
+body > header h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+main {
+    width: 601px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+}
+
+/* section - privacy_form */
+.privacy_form {
+    margin-bottom: 57.8px;
+}
+
+.privacy_form label {
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 16.7px;
+}
+
+.privacy_form input {
+    width: 100%;
+    height: 36px;
+    border: 1px solid rgba(166,173,180,0.4);
+    border-radius: 6px;
+    padding: 10px 15.7px;
+    font-size: 16px;
+    background-color: #fff;
+    margin-bottom: 32px;
+}
+
+.privacy_form li:last-child input {
+    margin-bottom: 0;
+}
+
+.privacy_form input:focus {
+    border: 1px solid rgba(118,180,45,0.7);
+}
+
+/* section - setup_residence */
+.setup_residence {
+    margin-bottom: 90px;
+}
+
+.setup_residence > header {
+    margin-bottom: 39px;
+}
+
+.setup_residence > header h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.setup_residence > header span {
+    font-size: 16px;
+    color: #707070;
+}
+
+.residence_select > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.residence_select > ul  li label {
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.residence_select_btn {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 281px;
+    height: 36.44px;
+    padding: 0 17.8px;
+    text-align: left;
+    border: 1px solid rgba(166,173,180,0.4);
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.residence_select_btn span {
+    font-size: 12px;
+    font-weight: 300;
+    color: #9D9D9D;
+}
+
+.residence_select_btn .fa-caret-down {
+    font-size: 18px;
+    color: #989898;
+}
+
+.residence_select_btn:hover .fa-caret-down {
+    color: #76B42D;
+}
+
+.residence_select_btn:active .fa-caret-down {
+    color: #76B42D;
+}
+
+.residence_select_text.selected {
+    color: #030301;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.residence_select_dropdown {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0;
+    top: 35px;
+    width: 100%;
+    height: 421px;
+    border-radius: 6px;
+    padding: 12px 0;
+    overflow-y: scroll;
+    background-color: #fff;
+    z-index: 100;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.16);
+}
+
+.residence_select_dropdown.visible {
+    display: flex;
+}
+
+.residence_select_dropdown li  {
+    width: 100%;
+    padding: 8px 45px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.residence_select_dropdown li:hover {
+    background-color: #76B42D;
+    color: #fff;
+}
+
+/* footer */
+footer {
+    margin-bottom: 88px;
+}
+
+.confirm_btn {
+    display: block;
+    border-radius: 43px;
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #76B42D;
+}
+
+.confirm_btn:active {
+    background-color: #76B42D;
+    opacity: 0.5;
+}
+
+.confirm_btn a {
+    display: block;
+    padding: 12px 62px;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e5e038509e.js" crossorigin="anonymous"></script>
+    <script defer src="../js/sign.js"></script>
+    <link rel="stylesheet" href="../css/sign.css">
+    <title>Sign</title>
+</head>
+<body>
+    <header>
+        <h1>회원가입</h1>
+    </header>
+    <main>
+        <section class='privacy_form'>
+            <form action="" method="POST">
+                <ul>
+                    <li>
+                        <label for="user_id">아이디</label>
+                        <input id='user_id' type="text">
+                    </li>
+                    <li>
+                        <label for="user_pass">비밀번호</label>
+                        <input id='user_pass' type="password">
+                    </li>
+                    <li>
+                        <label for="user_pass_re">비밀번호 확인</label>
+                        <input id='user_pass_re' type="password">
+                    </li>
+                    <li>
+                        <label for="user_name">이름</label>
+                        <input id='user_name' type="text">
+                    </li>
+                    <li>
+                        <label for="user_email">이메일 주소</label>
+                        <input id='user_email' type="email">
+                    </li>
+                </ul>
+            </form>
+        </section>
+        <section class='setup_residence'>
+            <header>
+                <h2>지역 설정</h2>
+                <span>거주지를 설정하고 내 주변의 활동을 추천받으세요</span>
+            </header>
+            <form class='residence_select'>
+                <ul>
+                    <li>
+                        <label>지역</label>
+                        <button type="button" class='residence_select_btn area_btn_1'>
+                            <span class='residence_select_text select_text_1'>전체</span>
+                            <i class="fas fa-caret-down"></i>
+                            <ul class='residence_select_dropdown area_dropdown_1'>
+                                <li>서울시</li>
+                                <li>인천시</li>
+                                <li>경기도</li>
+                                <li>충청북도</li>
+                                <li>충청남도</li>
+                                <li>세종시</li>
+                                <li>강원도</li>
+                                <li>대전시</li>
+                                <li>전라북도</li>
+                                <li>경상북도</li>
+                                <li>대구시</li>
+                                <li>광주시</li>
+                                <li>경상남도</li>
+                                <li>전라남도</li>
+                                <li>울산시</li>
+                                <li>부산시</li>
+                                <li>제주시</li>
+                            </ul>
+                        </button>
+                    </li>
+                    <li>
+                        <label>시/군/구</label>
+                        <button type="button" class='residence_select_btn area_btn_2'>
+                            <span class='residence_select_text select_text_2'>전체</span>
+                            <i class="fas fa-caret-down"></i>
+                            <ul class='residence_select_dropdown area_dropdown_2'>
+                                <li>강남구</li>
+                                <li>강동구</li>
+                                <li>강북구</li>
+                                <li>강서구</li>
+                                <li>관악구</li>
+                                <li>광진구</li>
+                                <li>구로구</li>
+                                <li>금천구</li>
+                                <li>노원구</li>
+                                <li>도봉구</li>
+                                <li>동대문구</li>
+                                <li>동작구</li>
+                                <li>마포구</li>
+                                <li>서대문구</li>
+                                <li>서초구</li>
+                                <li>성동구</li>
+                                <li>성북구</li>
+                                <li>송파구</li>
+                                <li>양천구</li>
+                                <li>영등포구</li>
+                                <li>용산구</li>
+                                <li>은평구</li>
+                                <li>종로구</li>
+                                <li>중구</li>
+                                <li>중랑구</li>
+                            </ul>
+                        </button>
+                    </li>
+                </ul>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <button type="submit" class='confirm_btn'>
+            <a href="../html/keyword.html">
+                확인
+            </a>
+        </button>
+    </footer>
+</body>
+</html>
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e5e038509e.js" crossorigin="anonymous"></script>
+    <script defer type='module' src="../js/main.js"></script>
+    <title>main</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="header_wrap">
+        <div class="margin_wrap">
+            <header>
+                <h1 class='logo'>
+                    <a href="./main.html">
+                        <img src="../img/logo.png" alt="logo">
+                    </a>
+                </h1>
+                <nav>
+                    <ul class='menus'>
+                        <li class='menu'>
+                            <a href="./campaign.html">
+                                <h2>캠페인</h2>
+                            </a>
+                        </li>
+                        <li class='menu'>
+                            <a href="./event.html">
+                                <h2>이벤트</h2>
+                            </a>
+                        </li>
+                        <li class='menu'>
+                            <a href="./volunteer.html">
+                                <h2>자원봉사</h2>
+                            </a>
+                        </li>
+                        <li class='menu'>
+                            <a href="./support.html">
+                                <h2>지원사업</h2>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="privacy">
+                    <a href="./calendar.html" class='calendar_btn'>
+                        <i class="far fa-calendar-alt"></i>
+                        캘린더
+                    </a>
+                    <div class='profile'>
+                        <i class="fas fa-user"></i>
+                        <div class='profile_drop_down'>
+                            <ul class='profile_drop_down_items'>
+                                <li class='profile_drop_down_item user_name'>
+                                    <a href="#">김그린님</a>
+                                </li>
+                                <li class='profile_drop_down_item'>
+                                    <a href="../html/favorlist.html">관심 목록</a>
+                                </li>
+                                <li class='profile_drop_down_item'>
+                                    <a href="#">내 게시물</a>
+                                </li>
+                                <li class='profile_drop_down_item'>
+                                    <a href="./beforelogin.html">로그아웃</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+
+    <!-- banner -->
+    <div>
+        <section class='banner'>
+        </section>
+    </div>
+
+    <main>
+        <!-- search_bar -->
+        <section class='section_main_search'>
+             <div class="margin_wrap">
+                <div class="main_search_wrap">
+                     <div class="main_search">
+                         <i class="fas fa-search main"></i>
+                         <input type="text" placeholder="나의 그린 캘린더를 채워보세요!"></input>
+                         <button type="button" class='main_search_btn'>Search</button>
+                     </div>
+                </div>
+             </div>
+        </section>
+
+        <!-- content -->
+        <section class='section_content'>
+            <div class='margin_wrap'>
+                <!-- recommendation_list -->
+                <article class='recommendation_list'>
+                    <h1 class='article_title'>맞춤형 추천</h1>
+                    <button type="button" class='view_more_btn'>view more</button>
+                    <ul class="contents recommend_items">
+                    </ul>
+                </article>
+
+                <!-- area_list -->
+                <article class='area_list'>
+                    <h1 class='article_title'>내 주위에는?</h1>
+                    <button type="button" class='view_more_btn'>view more</button>
+                    <ul class="contents area_items">
+                    </ul>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <aside class='favor_popup'>
+    </aside>
+    
+    <aside class='calendar_popup'>
+    </aside>
+
+    <footer class='footer'>
+    </footer>
+</body>
+</html>

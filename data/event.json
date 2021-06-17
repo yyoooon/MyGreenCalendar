@@ -1,0 +1,95 @@
+{
+    "items": [
+        {
+            "title": "세종특별자치시</br>용기내 세종" ,
+            "type": "public",
+            "text": "<p>'일회용품을 줄이기 위해 음식이나 제품 구입 시</br> 1회용 포장 용기 대신 직접 가져간 “용기”에 담아오는 시민 실천 운동.</p><p>sns에 참여후기를 게시하는 이벤트</p>" ,
+            "tag1": "일회용기" ,
+            "tag2": "개인용기", 
+            "tag3": "sns" ,
+            "tag4": "공공",
+            "date": "5.13~5.26",
+            "remain": 4,
+            "image": "../img/event/img_1.png",
+            "recommend":false,
+            "area":true,
+            "favor": 0
+        },
+        {
+            "title": "국가환경교육센터</br>초성퀴즈이벤트" ,
+            "type": "public",
+            "text": "<p>생물다양성의 날을 알리기 위한 이벤트!</br>초성을 맞추면 추첨 후 경품 증정</p>",
+            "tag1": "미션" ,
+            "tag2": "인증샷", 
+            "tag3": "실천 물품" ,
+            "tag4": "공공",
+            "date": "5.6~5.21",
+            "remain": 5,
+            "image": "../img/event/img_2.png",
+            "recommend":false,
+            "area":false,
+            "favor": 0
+        },
+        {
+            "title": "롯데시네마에서도 </br> 용기내 이벤트",
+            "type": "private",
+            "text": "<p>고객님게서 준비해오신</br>다회용 식품용기에 팝콘을</br>가득 담아드려요 !</p>",
+            "tag1": "개인용기" ,
+            "tag2": "SNS", 
+            "tag3": "팝콘" ,
+            "tag4": "민간",
+            "date": "6.5",
+            "remain": 1,
+            "image": "../img/event/img_3.png",
+            "recommend":false,
+            "area":false,
+            "favor": 0
+        },
+        {
+            "title": "카카오톡 플친 단독 </br> 세계 환경의 날 이벤트",
+            "type": "private",
+            "text": "<p>환경보호의 중요성에 적극 공감하고</br>소비자와 함께 환경보호를</br>실천해나가요 !</p>",
+            "tag1": "환경의날",
+            "tag2": "트루자임", 
+            "tag3": "SNS" ,
+            "tag4": "민간",
+            "date": "6.1~6.5",
+            "remain": 1,
+            "image": "../img/event/img_4.png",
+            "recommend":false,
+            "area":false,
+            "favor": 0
+        },
+        {
+            "title": "코웨이 </br> 환경의 날 페트병 사용 줄이기",
+            "type": "private",
+            "text": "<p>코웨이 인스타그램을 팔로우 한 후</br>업로드 된 영상에 캠페인을 응원하는</br>댓글을 남겨주세요!</p><p>추첨을 통해 소정의 경품을 드립니다</p>",
+            "tag1": "경품증정",
+            "tag2": "영상", 
+            "tag3": "SNS댓글" ,
+            "tag4": "민간",
+            "date": "6.5~6.13",
+            "remain": 9,
+            "image": "../img/event/img_5.png",
+            "recommend":false,
+            "area":false,
+            "favor": 0
+        },
+        {
+            "title": "그린카드X이마트와 </br> 함께하는 그린 장보기",
+            "type": "public",
+            "text": "<p>그린장보기로 에코머니도 적립하고</br>친환경 제품도 구매해요 !</p>",
+            "tag1": "그린카드",
+            "tag2": "이마트", 
+            "tag3": "장보기" ,
+            "tag4": "공공+민간",
+            "date": "6.3~6.30",
+            "remain": "none",
+            "image": "../img/event/img_6.png",
+            "recommend":false,
+            "area":false,
+            "favor": 0
+        }
+        
+    ]
+}

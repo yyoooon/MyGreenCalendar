@@ -1,0 +1,77 @@
+@import url('./style.css');
+
+/* -------menu_header------- */
+.favor_list_header {
+    display: flex;
+    align-items: center;
+    height: 282px;
+}
+
+/* .favor_list_header h1 {
+    font-size: 28px;
+} */
+
+/* --------main--------- */
+main {
+    background-color: #fff;
+}
+
+/* --------favor_list_filter--------- */
+.favor_list_filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sort_filter ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sort_filter ul li {
+    margin-right: 20px;
+}
+
+.sort_filter ul li:last-child {
+    margin-right: 0px;
+}
+
+.favor_list_filter .filter_element {
+    width: 87px;
+    border: 1px solid rgba(166, 173, 180, 0.3);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+/* --------favor_list-------- */
+.section_content.menu {
+    padding: 63px 0;
+}
+
+.section_content.menu article {
+    margin-bottom: 0px;
+}
+
+.favor_list ul {
+    min-height: 400px;
+}
+
+/* content-1 */
+.content:nth-child(1) .content_img {
+    background-image: url('../img/campaign/img_8.png');
+}
+
+/* content-2 */
+.content:nth-child(2) .content_img {
+    background-image: url('../img/campaign/img_1.png');
+}
+
+/* content-3 */
+.content:nth-child(3) .content_img {
+    background-image: url('../img/campaign/img_3.png');
+}
+
+/* content-4 */
+.content:nth-child(4) .content_img {
+    background-image: url('../img/campaign/img_7.png');
+}

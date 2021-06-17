@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script type='module' defer src="../js/support.js"></script>
+    <script src="https://kit.fontawesome.com/e5e038509e.js" crossorigin="anonymous"></script>
+    <title>support</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="header_wrap">
+        <div class="margin_wrap">
+            <header>
+                <h1 class='logo'>
+                    <a href="./main.html">
+                        <img src="../img/logo.png" alt="logo">
+                    </a>
+                </h1>
+                <nav>
+                    <ul class='menus'>
+                        <li class='menu'>
+                            <a href="./campaign.html">
+                                <h2>캠페인</h2>
+                            </a>
+                        </li>
+                        <li class='menu'>
+                            <a href="./event.html">
+                                <h2>이벤트</h2>
+                            </a>
+                        </li>
+                        <li class='menu'>
+                            <a href="./volunteer.html">
+                                <h2>자원봉사</h2>
+                            </a>
+                        </li>
+                        <li class='menu'>
+                            <a href="./support.html">
+                                <h2>지원사업</h2>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="privacy">
+                    <a href="./calendar.html" class='calendar_btn'>
+                        <i class="far fa-calendar-alt"></i>
+                        캘린더
+                    </a>
+                    <div class='profile'>
+                        <i class="fas fa-user"></i>
+                        <div class='profile_drop_down'>
+                            <ul class='profile_drop_down_items'>
+                                <li class='profile_drop_down_item user_name'>
+                                    <a href="#">김그린님</a>
+                                </li>
+                                <li class='profile_drop_down_item'>
+                                    <a href="../html/favorlist.html">관심 목록</a>
+                                </li>
+                                <li class='profile_drop_down_item'>
+                                    <a href="#">내 게시물</a>
+                                </li>
+                                <li class='profile_drop_down_item'>
+                                    <a href="./beforelogin.html">로그아웃</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+
+    <!-- menu_header -->
+    <header class='campaign_header'>
+        <h1>지원사업</h1>
+    </header>
+
+    <!-- menu_filter -->
+    <section class='section_menu_filter'>
+        <div class="menu_filter margin_wrap">
+            <div class="classifi_btns">
+                <button type="button" class='classifi_btn_whole selected'><h2 data-key='type' data-value='all'>전체</h2></button>
+                <button type="button" class='classifi_btn_public'><h2 data-key='type' data-value='public'>공공</h2></button>
+                <button type="button" class='classifi_btn_private'><h2 data-key='type' data-value='private'>민간</h2></button>
+            </div>
+            <div class='menu_filter'>
+                <div class="search_bar">
+                    <input type="text" placeholder="검색어를 입력하세요" class="search_bar_input">
+                    <i class="fas fa-search"></i>
+                </div>
+                <button type="button" class='filter_element filter_dropdown_btn'>필터</button>
+            </div>
+        </div>
+    </section>
+
+    <section class='section_menu_filter_dropdown'>
+        <div class="menu_filter_dropdown margin_wrap">
+            <div class='area_filter'>
+                <ul>
+                    <li>
+                        <h4>지역</h4>
+                        <button type="button" class='filter_element area_filter_detail_btn_1'>
+                            <span class='detail_btn_text'>전체</span>
+                            <i class="fas fa-caret-down"></i>
+                            <ul class='area_filter_detail_dropdown_1'>
+                                <li>전체</li>
+                                <li>서울시</li>
+                                <li>인천시</li>
+                                <li>경기도</li>
+                                <li>충청북도</li>
+                                <li>충청남도</li>
+                                <li>세종시</li>
+                                <li>강원도</li>
+                                <li>대전시</li>
+                                <li>전라북도</li>
+                                <li>경상북도</li>
+                                <li>대구시</li>
+                                <li>광주시</li>
+                                <li>경상남도</li>
+                                <li>전라남도</li>
+                                <li>울산시</li>
+                                <li>부산시</li>
+                                <li>제주시</li>
+                                <li>기타(온라인)</li>
+                            </ul>
+                        </button>
+                    </li>
+                    <li>
+                        <h4>시/군/구</h4>
+                        <button type="button" class='filter_element area_filter_detail_btn_2'>
+                            <span class='detail_btn_text'>전체</span>
+                            <i class="fas fa-caret-down"></i>
+                            <ul class='area_filter_detail_dropdown_2'>
+                            </ul>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="sort_filter">
+                <h4>정렬</h4>
+                <ul>
+                    <li>
+                        <button type="button" class='filter_element sort_filter_btn_newest selected'>최신순</button>
+                    </li>
+                    <li>
+                        <button type="button" class='filter_element sort_filter_btn_popularity'>인기순</button>
+                    </li>
+                    <li>
+                        <button type="button" class='filter_element sort_filter_btn_deadline'>마감순</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- content -->
+        <section class='section_content menu'>
+            <div class='margin_wrap'>
+                <article class='campaign_list'>
+                    <ul class="contents">
+                    </ul>
+                </article>
+            </div>   
+        </section>
+    </main>
+
+    <!-- popup -->
+     <aside class='favor_popup'>
+    </aside>
+
+    <aside class='calendar_popup'>
+    </aside>
+
+    <footer class='footer'>
+    </footer>
+</body>
+</html>

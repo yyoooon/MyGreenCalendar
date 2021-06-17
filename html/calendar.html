@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/calendar.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e5e038509e.js" crossorigin="anonymous"></script>
+    <script defer type = 'module' src="../js/calendar.js"></script>
+    <title>calendar</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="header_wrap">
+        <div class="margin_wrap">
+            <header>
+                <h1 class='logo'>
+                    <a href="./main.html">
+                        <img src="../img/logo.png" alt="logo">
+                    </a>
+                </h1>
+                <nav>
+                    <ul class='menus'>
+                        <li class='menu'>
+                            <a href="./campaign.html">
+                                <h2>캠페인</h2>
+                            </a>
+                        </li>
+                        <li class='menu'>
+                            <a href="./event.html">
+                                <h2>이벤트</h2>
+                            </a>
+                        </li>
+                        <li class='menu'>
+                            <a href="./volunteer.html">
+                                <h2>자원봉사</h2>
+                            </a>
+                        </li>
+                        <li class='menu'>
+                            <a href="./support.html">
+                                <h2>지원사업</h2>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="privacy">
+                    <a href="./calendar.html" class='calendar_btn'>
+                        <i class="far fa-calendar-alt"></i>
+                        캘린더
+                    </a>
+                    <div class='profile'>
+                        <i class="fas fa-user"></i>
+                        <div class='profile_drop_down'>
+                            <ul class='profile_drop_down_items'>
+                                <li class='profile_drop_down_item user_name'>
+                                    <a href="#">김그린님</a>
+                                </li>
+                                <li class='profile_drop_down_item'>
+                                    <a href="./favorlist.html">관심 목록</a>
+                                </li>
+                                <li class='profile_drop_down_item'>
+                                    <a href="#">내 게시물</a>
+                                </li>
+                                <li class='profile_drop_down_item'>
+                                    <a href="./beforelogin.html">로그아웃</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+
+    <main>
+        <!-- caleandar -->
+        <section class='caleandar'>
+            <!-- <div id='calendar' class='margin_wrap'></div> -->
+            <div class="calendar_area"></div>
+        </section>
+
+        <header class='calendar_list_header'>
+            <div class="margin_wrap">
+                <h1>캘린더 저장 목록</h1>
+            </div>
+        </header>
+         <!-- caleandar_list_filter -->
+        <section class='section_calendar_list_filter'>
+            <div class="calendar_list_filter margin_wrap">
+                <div class="search_bar">
+                    <input type="text" placeholder="검색어를 입력하세요">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="sort_filter">
+                    <ul>
+                        <li>
+                            <button type="button" class='filter_element current'>관심순</button>
+                        </li>
+                        <li>
+                            <button type="button" class='filter_element'>최신순</button>
+                        </li>
+                        <li>
+                            <button type="button" class='filter_element'>마감순</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- caleandar_list -->
+        <section class='section_content menu'>
+            <div class='margin_wrap'>
+                <article class='calendar_list'>
+                    <ul class="contents">
+                    </ul>
+                </article>
+            </div>   
+        </section>
+    </main>
+
+    <!-- popup -->
+    <aside class='favor_popup'>
+    </aside>
+
+    <aside class='calendar_popup'>
+    </aside>
+
+    <footer class='footer'>
+    </footer>
+</body>
+</html>
