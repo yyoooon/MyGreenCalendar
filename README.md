@@ -9,7 +9,9 @@ Html, css, Javascript, Json
 - 모든 환경 참여 활동 이벤트를 한번에 모아볼 수 있으며 개인에 맞는 **맞춤형 활동**을 추천합니다.
 - 참여하고 있는 활동이나 참여할 활동을 **캘린더에 저장**해 편하게 일정을 관리할 수 있습니다
 
-[자세한 기획 설명 페이지](https://www.notion.so/My-Green-Calendar-861dd92979964e9a9699aa0536b9229f)
+[자세한 기획 설명 페이지 링크](https://www.notion.so/My-Green-Calendar-861dd92979964e9a9699aa0536b9229f)  
+[시연 영상 링크](https://www.youtube.com/watch?v=VQpOeU1g18s)
+
 
 </br>
 
