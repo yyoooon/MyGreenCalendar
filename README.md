@@ -1,4 +1,4 @@
-# MyGreenCalendar (진행중)
+# MyGreenCalendar
 
 Html, css, Javascript, Json
 
